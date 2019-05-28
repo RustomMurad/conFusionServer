@@ -18,6 +18,8 @@ const commentSchema = Schema({
         type: String,
         required: true
     }
+},{
+    timestamps:true
 });
 
 const dishSchema = new Schema({
